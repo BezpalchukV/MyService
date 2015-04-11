@@ -5,7 +5,7 @@ namespace :parse do
   task blogparse: :environment do
     doc = Nokogiri::HTML(open("http://waitbutwhy.com", 'User-Agent' => 'chrome'))
     i = 0
-    doc.xpath('//div[@id ="feat-postlist"]').count.times do
+    doc.css('#feat-postlist').count.times do
       post = Post.new
       post.title=  doc.xpath('//h3/a')[i].content
       post.body = doc.xpath('//div[@class="entry-excerpt"]')[i].content
