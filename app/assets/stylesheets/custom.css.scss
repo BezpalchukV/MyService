@@ -1,0 +1,92 @@
+@import "bootstrap";
+
+body {
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  h2 {
+    text-align: center;
+  }
+  .field {
+    padding-top: 15px;
+    font-size: large;
+  }
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+h2, .h2 {
+  font-size: 25px;
+}
+h1, .h1 {
+  text-align: center;
+}
+.navbar {
+  min-height: 30px;
+}
+.navbar-inverse {
+  background-color: #A2C4F2;
+  border-color: #A2C4F2;
+}
+.nav-pills > li > a:hover {
+  background-color: #287AED;
+}
+.navbar-text.navbar-right:last-child {
+  max-height: 20px;
+  margin: 10px 15px 0px 0px;
+  color: #474343;
+}
+
+.navbar-inverse .navbar-link {
+  color: black;
+}
+
+.nav {
+  text-align: right;
+  margin-right: 2em;
+}
+
+.actions.login {
+  margin-top: 1em;
+}
+
+.title_books {
+  h2 {
+    margin-left: 35em;
+  }
+}
+
+.row.text-center {
+  margin-left: 17em;
+}
